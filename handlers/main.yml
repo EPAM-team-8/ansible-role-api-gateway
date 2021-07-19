@@ -1,0 +1,6 @@
+---
+
+- name: 'Restart API service'
+  service:
+    name: 'api'
+    state: 'restarted'
